@@ -1,0 +1,264 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.html .body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+.header {
+  width: 100%;
+  height: 46px;
+  background: darkcyan;
+}
+.header a {
+  display: inline-block;
+  width: 78px;
+  height: 21px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.header a img {
+  opacity: 0.5;
+}
+.header a img:hover {
+  opacity: 1;
+}
+.header ul {
+  float: right;
+  margin-right: 30px;
+}
+.header ul li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+  line-height: 46px;
+  color: white;
+  opacity: 0.5;
+}
+.header ul li:hover {
+  opacity: 1;
+}
+.content {
+  width: 100%;
+  height: 520px;
+  padding-top: 50px;
+  background-color: brown;
+}
+.contentbox {
+  width: 1200px;
+  height: 100%;
+  background-color: yellowgreen;
+  margin: auto;
+}
+.leftbox {
+  width: 800px;
+  height: 100%;
+  float: left;
+}
+.leftboxtitle {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+.leftboxtitle span {
+  display: inline-block;
+  width: 122px;
+  height: 100%;
+  border: 1px solid white;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.5;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+.leftboxtitle span:hover {
+  opacity: 1;
+}
+.leftboxtitle span i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("../images/icon.png") no-repeat 0 0;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+.leftboxtitle span:nth-child(1) i {
+  background-position: -60px -20px;
+}
+.leftboxtitle span:nth-child(2) i {
+  background-position: -20px -20px;
+}
+.leftboxtitle span:nth-child(3) i {
+  background-position: -40px -240px;
+}
+.leftboxtitle span:nth-child(4) i {
+  background-position: -100px -20px;
+}
+.leftboxtitle span:nth-child(5) i {
+  background-position: -40px -300px;
+}
+.leftboxlist {
+  width: 100%;
+  height: 460px;
+  background-color: blue;
+  overflow: auto;
+}
+.leftboxlist li {
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  user-select: none;
+}
+.leftboxlist li > div {
+  float: left;
+  color: #fff;
+  line-height: 50px;
+}
+.leftboxlist .listcheck {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.listcheck i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #fff;
+}
+.listchecked > i {
+  background: url(../images/icon.png) no-repeat -60px -80px;
+}
+.leftboxlist .listnumber {
+  width: 20px;
+  height: 100%;
+}
+.leftboxlist .listname {
+  width: 50%;
+  height: 100%;
+}
+.listmeun {
+  margin-top: 5px;
+  float: right;
+  margin-right: 20px;
+  display: none;
+}
+.listmeun a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url(../images/icon_list_menu.png) no-repeat 0 0;
+}
+.listmeun a:nth-child(1) {
+  background-position: -120px 0;
+}
+.listmeun a:nth-child(2) {
+  background-position: -120px -80px;
+}
+.listmeun a:nth-child(3) {
+  background-position: -120px -40px;
+}
+.listmeun a:nth-child(4) {
+  background-position: -120px -160px;
+}
+.leftboxlist .listsinger {
+  width: 20%;
+  height: 100%;
+}
+.listtime a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url(../images/icon_list_menu.png) no-repeat -120px -160px;
+  float: right;
+  margin-top: 5px;
+  display: none;
+}
+.rightbox {
+  width: 400px;
+  height: 100%;
+  padding-top: 50px;
+  float: right;
+  background-color: skyblue;
+  box-sizing: border-box;
+}
+.rightbox .rightsinger {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.rightsinger div a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+  line-height: 30px;
+}
+.rightsinger div a:hover {
+  opacity: 1;
+}
+.singerimg {
+  text-align: left;
+  display: inline-block;
+  width: 201px;
+  height: 180px;
+  background: url(../images/singerbk.png) no-repeat 0 0;
+}
+.singerimg img {
+  width: 180px;
+  height: 180px;
+}
+.singertext {
+  margin-top: 40px;
+}
+.singertext li {
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-weight: bold;
+}
+.singertext .cur {
+  color: #31c27c;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: burlywood;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+.footerbox {
+  width: 1200px;
+  height: 100%;
+  background-color: blueviolet;
+  margin: auto;
+}
+.footerbox a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: url(../images/cover_play.png) no-repeat 0px 0px;
+}
+.footerbox .music_pre {
+  width: 19px;
+  height: 20px;
+  background-position: 0px -30px;
+}
+.footerbox .music_play {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -60px;
+}
+.footerbox .music_next {
+  width: 44px;
+  height: 44px;
+  background-position: 0px -60px;
+}
